@@ -1,0 +1,58 @@
+
+body{
+    background-color:GREY;
+}
+
+.div{
+    height: 680px;
+    width: 500px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 62%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+ h1{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    margin-top: auto;
+
+}
+input,select{
+  margin:0;
+  font-size: 16px;
+  padding-left:8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 0;
+  width: 100%;
+  border-radius: 8px;
+}
+.btn{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color:GREEN;
+  text-align: center;
+  background-color:#66BFBF;
+  font-family: 'Merriweather', serif;
+}
+.btn:hover{
+  background-color: rgba(255,255,255,0.47);
+
+}
+input:focus,select:focus{
+  background-color:#E4F9F5;
+  color: green;
+  border: solid 3px #E4F9F5;
+  border-radius: 8px;
+}
